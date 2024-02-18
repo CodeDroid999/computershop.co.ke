@@ -183,7 +183,7 @@ North Express is the brainchild of a group of veteran logisticians redefining lu
           onClick={handleGoogleSignIn}
         >
           <FcGoogle className="mr-2" size={20} />
-          Log in with Google
+          Sign In with Google
         </button>
       </div>
 

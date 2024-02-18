@@ -204,7 +204,7 @@ export default function Signup() {
         <div className="flex flex-row space-x-3 text-base font-normal justify-items-center items-center">
           <p className="pt-1 pb-2 text-lg">Already have an account?</p>
           <p className="font-medium text-green-500 hover:text-green-950 items-center">
-            <Link href="auth/sign-in">Log in</Link>
+            <Link href="auth/sign-in">Sign In</Link>
           </p>
         </div>
       </form>
