@@ -131,7 +131,7 @@ export default function Step3({ handlePreviousStep }: Props) {
             Back
           </button>
           <button
-            className="flex-1 rounded-xl bg-amber-500 py-2 text-center text-white"
+            className="flex-1 rounded-xl bg-indigo-400 py-2 text-center text-white"
             onClick={handleNext}
           >
             Post booking

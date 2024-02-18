@@ -196,7 +196,7 @@ export default function Signup() {
 
         <button
           type="submit"
-          className="rounded-2xl bg-amber-500 shadow hover:bg-amber-600 hover:pointer hover:font-bold  px-4 py-2 text-blue-950"
+          className="rounded-2xl bg-indigo-400 shadow hover:bg-amber-600 hover:pointer hover:font-bold  px-4 py-2 text-blue-950"
         >
           Sign Up
         </button>

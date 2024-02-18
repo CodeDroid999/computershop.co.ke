@@ -82,7 +82,7 @@ export default function Outgoing() {
                 <div className="mt-6">
                   <Link
                     href="/post-booking"
-                    className="rounded-full bg-amber-500 px-4 py-2 font-semibold text-white"
+                    className="rounded-full bg-indigo-400 px-4 py-2 font-semibold text-white"
                   >
                     Post an booking
                   </Link>

@@ -89,7 +89,7 @@ const Accordion: React.FC = () => {
         ))}
       </div>
       <div className="flex space-x-2">
-        <div className="w-full max-w-sm rounded-full bg-amber-500 px-1 py-1 pt-4 sm:w-[300px]  xl:my-1  xl:py-2 ">
+        <div className="w-full max-w-sm rounded-full bg-indigo-400 px-1 py-1 pt-4 sm:w-[300px]  xl:my-1  xl:py-2 ">
           <Link
             href="/become-a-tutor"
             className="flex w-full flex-row justify-center text-lg font-semibold text-white"

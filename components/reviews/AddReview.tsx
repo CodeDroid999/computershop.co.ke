@@ -114,7 +114,7 @@ export default function AddReview({ tutorDetails, assignmentId, student, assignm
     <div className="relative">
       <button
         onClick={() => setIsFormOpen(true)}
-        className="w-full rounded-full bg-amber-500 px-4 py-2 text-center font-semibold text-white"
+        className="w-full rounded-full bg-indigo-400 px-4 py-2 text-center font-semibold text-white"
       >
         Leave review
       </button>
@@ -179,7 +179,7 @@ export default function AddReview({ tutorDetails, assignmentId, student, assignm
             <div className="mt-5">
               <button
                 onClick={handleSubmit}
-                className="w-full rounded-full bg-amber-500 p-3 text-center  font-medium text-white "
+                className="w-full rounded-full bg-indigo-400 p-3 text-center  font-medium text-white "
               >
                 Submit Review
               </button>
