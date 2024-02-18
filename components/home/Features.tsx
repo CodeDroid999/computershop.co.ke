@@ -10,7 +10,7 @@ export default function Features() {
     {
       title: 'Value for your money',
       content:
-        'Concentrate on your travel arrangements knowing that we have your finances in mind. If you need help, we offer support around-the-clock.',
+        'Concentrate on your shop arrangements knowing that we have your finances in mind. If you need help, we offer support around-the-clock.',
       icon: <BiDollar size={28} />,
     },
     {
@@ -32,7 +32,7 @@ export default function Features() {
       <div className="container">
         <div className="pb-4">
           <h1 className="font-bold text-center text-4xl text-green-950 ">
-            Why travel with us?
+            Why shop with us?
           </h1>
         </div>
 

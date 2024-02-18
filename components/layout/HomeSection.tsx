@@ -10,9 +10,7 @@ import CustomNavbar from './Navbar';
 const HeroArea: React.FC = () => {
     return (
         <header id="home" className="header_section pb-4">
-            <div className="">
-                <Alert />
-            </div>
+
             <CustomNavbar />
             <div className="overText mx-auto max-w-c-1390 my-12 z-3">
                 <div className="container flex lg:items-center lg:gap-8 xl:gap-32.5 pl-10">
