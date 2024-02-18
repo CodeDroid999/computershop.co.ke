@@ -1,30 +1,19 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import Alert from './Alert';
-import Carousel from './Carousel';
-import Navbar from './commons/navbar';
+import CustomNavbar from './Navbar';
 
 
-const images = [
-    { url: 'https://i.postimg.cc/vmmJcHKm/laptop.jpg', alt: 'Image 1' },
-    { url: 'https://i.postimg.cc/vmmJcHKm/laptop.jpg', alt: 'Image 2' },
-    { url: 'https://i.postimg.cc/vmmJcHKm/laptop.jpg', alt: 'Image 3' },
-    // Add more images as needed
-];
+
 
 
 const HeroArea: React.FC = () => {
     return (
         <header id="home" className="header_section pb-4">
-            <div className="hero_bg_box">
-                <div className="img-box">
-                    <Carousel images={images} />
-                </div>
-            </div>
             <div className="">
                 <Alert />
             </div>
-            <Navbar />
+            <CustomNavbar />
             <div className="overText mx-auto max-w-c-1390 my-12 z-3">
                 <div className="container flex lg:items-center lg:gap-8 xl:gap-32.5 pl-10">
                     <div className=" md:w-2/3">

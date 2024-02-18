@@ -4,6 +4,7 @@ const config = {
     domains: ['i.postimg.cc', 'firebasestorage.googleapis.com'],
     remotePatterns: [
       { hostname: 'cdn.sanity.io' },
+      { hostname: 'lh3.googleusercontent.com' },
       { hostname: 'source.unsplash.com' },
     ],
   },
