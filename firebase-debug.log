@@ -64,3 +64,28 @@
 [debug] [2024-02-05T07:43:34.523Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/498415498621:getIamPolicy [none]
 [debug] [2024-02-05T07:43:36.486Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/498415498621:getIamPolicy 200
 [debug] [2024-02-05T07:43:36.487Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/498415498621:getIamPolicy {"version":1,"etag":"BwYQnYupb6M=","bindings":[{"role":"roles/editor","members":["serviceAccount:northexpresskenya@appspot.gserviceaccount.com"]},{"role":"roles/firebase.managementServiceAgent","members":["serviceAccount:firebase-service-account@firebase-sa-management.iam.gserviceaccount.com","serviceAccount:service-498415498621@gcp-sa-firebase.iam.gserviceaccount.com"]},{"role":"roles/firebase.sdkAdminServiceAgent","members":["serviceAccount:firebase-adminsdk-7y733@northexpresskenya.iam.gserviceaccount.com"]},{"role":"roles/firebaserules.system","members":["serviceAccount:service-498415498621@firebase-rules.iam.gserviceaccount.com"]},{"role":"roles/firebasestorage.serviceAgent","members":["serviceAccount:service-498415498621@gcp-sa-firebasestorage.iam.gserviceaccount.com"]},{"role":"roles/firestore.serviceAgent","members":["serviceAccount:service-498415498621@gcp-sa-firestore.iam.gserviceaccount.com"]},{"role":"roles/iam.serviceAccountTokenCreator","members":["serviceAccount:firebase-adminsdk-7y733@northexpresskenya.iam.gserviceaccount.com"]},{"role":"roles/owner","members":["user:johnmwega2002@gmail.com"]},{"role":"roles/storage.admin","members":["serviceAccount:firebase-adminsdk-7y733@northexpresskenya.iam.gserviceaccount.com"]}]}
+[debug] [2024-02-18T01:52:41.102Z] ----------------------------------------------------------------------
+[debug] [2024-02-18T01:52:41.110Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-02-18T01:52:41.111Z] CLI Version:   13.0.1
+[debug] [2024-02-18T01:52:41.112Z] Platform:      win32
+[debug] [2024-02-18T01:52:41.113Z] Node Version:  v18.17.0
+[debug] [2024-02-18T01:52:41.115Z] Time:          Sun Feb 18 2024 04:52:41 GMT+0300 (East Africa Time)
+[debug] [2024-02-18T01:52:41.115Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-18T01:52:41.647Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-18T01:52:41.649Z] > authorizing via signed-in user (johnmwega2002@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\hp\Desktop\computershop.co.ke
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
