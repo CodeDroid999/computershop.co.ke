@@ -21,7 +21,7 @@ const LoginModal: React.FC = () => {
                 <div className="flex">
                     <div
                         onClick={() => {
-                            router.push('auth/sign-in');
+                            router.push('/auth/sign-in');
                         }}
                         className="bg-green-500 text-white border-none p-2 rounded cursor-pointer text-center w-full"
                     >
