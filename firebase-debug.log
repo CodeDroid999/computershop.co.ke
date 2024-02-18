@@ -89,3 +89,38 @@ Before we get started, keep in mind:
 
   * You are initializing within an existing Firebase project directory
 
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using northexpresskenya. 
+[debug] [2024-02-18T01:55:35.698Z] > refreshing access token with scopes: []
+[debug] [2024-02-18T01:55:35.705Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-02-18T01:55:35.705Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-02-18T01:55:36.445Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-02-18T01:55:36.445Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-02-18T01:55:36.493Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/northexpresskenya [none]
+[debug] [2024-02-18T01:55:37.052Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/northexpresskenya 200
+[debug] [2024-02-18T01:55:37.052Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/northexpresskenya {"projectId":"northexpresskenya","projectNumber":"498415498621","displayName":"NorthExpressKenya","name":"projects/northexpresskenya","resources":{"hostingSite":"northexpresskenya","realtimeDatabaseInstance":"northexpresskenya-default-rtdb","storageBucket":"northexpresskenya.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_a363ceb0-ba5b-467b-bfad-547027b737ee"}
+[info] 
+=== Database Setup
+[info] i  database: ensuring required API firebasedatabase.googleapis.com is enabled... 
+[debug] [2024-02-18T01:55:37.073Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/northexpresskenya/services/firebasedatabase.googleapis.com [none]
+[debug] [2024-02-18T01:55:37.073Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/northexpresskenya/services/firebasedatabase.googleapis.com x-goog-quota-user=projects/northexpresskenya
+[debug] [2024-02-18T01:55:38.929Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/northexpresskenya/services/firebasedatabase.googleapis.com 200
+[debug] [2024-02-18T01:55:38.930Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/northexpresskenya/services/firebasedatabase.googleapis.com [omitted]
+[info] +  database: required API firebasedatabase.googleapis.com is enabled 
+[info] 
+[debug] [2024-02-18T01:55:38.936Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/northexpresskenya [none]
+[debug] [2024-02-18T01:55:39.384Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/northexpresskenya 200
+[debug] [2024-02-18T01:55:39.385Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/northexpresskenya {"projectId":"northexpresskenya","projectNumber":"498415498621","displayName":"NorthExpressKenya","name":"projects/northexpresskenya","resources":{"hostingSite":"northexpresskenya","realtimeDatabaseInstance":"northexpresskenya-default-rtdb","storageBucket":"northexpresskenya.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_a363ceb0-ba5b-467b-bfad-547027b737ee"}
+[debug] [2024-02-18T01:55:39.385Z] >>> [apiv2][query] GET https://firebasedatabase.googleapis.com/v1beta/projects/northexpresskenya/locations/-/instances/northexpresskenya-default-rtdb [none]
+[debug] [2024-02-18T01:55:41.208Z] <<< [apiv2][status] GET https://firebasedatabase.googleapis.com/v1beta/projects/northexpresskenya/locations/-/instances/northexpresskenya-default-rtdb 200
+[debug] [2024-02-18T01:55:41.208Z] <<< [apiv2][body] GET https://firebasedatabase.googleapis.com/v1beta/projects/northexpresskenya/locations/-/instances/northexpresskenya-default-rtdb {"name":"projects/498415498621/locations/us-central1/instances/northexpresskenya-default-rtdb","project":"projects/498415498621","databaseUrl":"https://northexpresskenya-default-rtdb.firebaseio.com","type":"DEFAULT_DATABASE","state":"ACTIVE"}
+[info] 
+[info] Firebase Realtime Database Security Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
