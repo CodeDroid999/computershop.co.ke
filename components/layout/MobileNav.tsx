@@ -54,7 +54,9 @@ const MobileNavbar = () => {
           )}
         </div>
       </div>
-
+      <div className="min-w-full items-center justify-between lg:hidden bg-white">
+        <SearchBar />
+      </div>
       {/* Conditional rendering of the NavigationMenu based on isMenuVisible */}
       {isMenuVisible && (
         <div className="flex">
@@ -62,6 +64,7 @@ const MobileNavbar = () => {
         </div>
       )}
     </div>
+
   );
 };
 

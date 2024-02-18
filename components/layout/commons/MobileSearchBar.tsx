@@ -17,7 +17,13 @@ const SearchBar = () => {
 
     return (
         <div className="relative flex items-center w-full border-1 border-gray-500 rounded">
-
+            <button
+                type="button"
+                onClick={handleSearch}
+                className="h-full uppercase px-2 py-2  bg-white text-gray-3000 focus:outline-none"
+            >
+                <FontAwesomeIcon icon={faSearch} className="text-md" />
+            </button>
             <input
                 type="text"
                 value={searchValue}

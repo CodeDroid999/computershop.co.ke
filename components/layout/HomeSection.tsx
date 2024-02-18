@@ -25,17 +25,13 @@ const HeroArea: React.FC = () => {
             <div className="flex bg-gray-100 mx-auto justify center align-center">
                 <CustomNavbar />
             </div>
-            <div className="md:hidden flex mx-3 items-center bg-red-700 min-w-100 ">
-                <SearchBar />
-            </div>
-
             <div className="overText mx-auto max-w-c-1390 my-12 z-3">
                 <div className="container flex lg:items-center lg:gap-8 xl:gap-32.5 pl-10">
                     <div className=" md:w-2/3">
-                        <h4 className="mb-4.5 text-lg font-medium text-gray-800">
+                        <h4 className="mb-4.5 text-lg font-medium text-gray-100">
                             🔥 Computershop - Shop with comfort.
                         </h4>
-                        <h1 className="mb-1 pr-16 text-3xl font-bold text-gray-800 xl:text-hero ">
+                        <h1 className="mb-1 pr-16 text-3xl font-bold text-amber-500 xl:text-hero ">
                             Comfortable. Efficient. Affordable .
                         </h1>
                         <p className="text-gray-800">
