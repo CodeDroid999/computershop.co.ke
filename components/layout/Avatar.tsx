@@ -12,9 +12,9 @@ const Avatar = () => {
         <div className="relative z-50">
             <div
                 onClick={handleAccountClick}
-                className="flex items-center justify-center border border-gray-100 shadow-inner rounded-full bg-transparent px-2.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primary"
+                className="flex items-center justify-center border border-gray-100 shadow-inner rounded-full bg-transparent px-2.5 py-2.5 text-regular text-gray-800 duration-300 ease-in-out hover:bg-primary"
             >
-                <span className="mr-2 md:text-lg font-medium text-xs text-white hover:text-blue-600">
+                <span className="mr-2 md:text-lg font-medium text-xs text-gray-800 hover:text-blue-600">
                     Account
                 </span>
                 <div className="inline-flex justify-end">
