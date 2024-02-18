@@ -16,7 +16,7 @@ const getStatusColor = (status) => {
         case 'Reviewing':
             return 'bg-purple-500'; // Purple color for reviewing
         case 'Verified':
-            return 'bg-green-900'; // Green color for verified
+            return 'bg-amber-400'; // Green color for verified
         case 'Rejected':
             return 'bg-red-500'; // Red color for rejected
         default:

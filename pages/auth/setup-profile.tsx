@@ -205,7 +205,7 @@ North Express is the brainchild of a group of veteran logisticians redefining lu
 
             <div
               onClick={handleSubmit}
-              className="mt-4 cursor-pointer rounded-xl bg-green-900 py-2 text-center font-semibold text-white"
+              className="mt-4 cursor-pointer rounded-xl bg-amber-400 py-2 text-center font-semibold text-white"
             >
               Complete my account
             </div>
