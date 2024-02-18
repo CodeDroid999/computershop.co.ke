@@ -196,7 +196,7 @@ North Express is the brainchild of a group of veteran logisticians redefining lu
         {/* Continue button */}
         <button
           type="submit"
-          className="rounded-2xl bg-amber-400 px-4 py-2 text-white hover:bg-amber-400"
+          className="rounded-2xl bg-amber-500 px-4 py-2 text-white hover:bg-amber-500"
         >
           Continue
         </button>
@@ -210,7 +210,7 @@ North Express is the brainchild of a group of veteran logisticians redefining lu
         </div>
 
         {/* Forgot password button */}
-        <button className="rounded-2xl bg-amber-400 px-4 py-2 text-white hover:bg-amber-400">
+        <button className="rounded-2xl bg-amber-500 px-4 py-2 text-white hover:bg-amber-500">
           <Link href="/forgot-password">Forgot password?</Link>
         </button>
       </form>

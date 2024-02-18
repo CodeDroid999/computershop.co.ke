@@ -44,7 +44,7 @@ export default function PostYourTask() {
               href="/post-booking"
               className=" text-white whitespace-nowrap"
             >   <button
-              className="rounded-2xl bg-amber-400 px-4 py-2 text-white hover:bg-amber-400 hover:shadow"
+              className="rounded-2xl bg-amber-500 px-4 py-2 text-white hover:bg-amber-500 hover:shadow"
             >
                 Post Assignment        </button>
 
@@ -53,7 +53,7 @@ export default function PostYourTask() {
               href="/post-booking"
               className=" text-white whitespace-nowrap"
             >   <button
-              className="rounded-2xl bg-amber-400 px-4 py-2 text-white hover:bg-amber-400 hover:shadow"
+              className="rounded-2xl bg-amber-500 px-4 py-2 text-white hover:bg-amber-500 hover:shadow"
             >
                 How it works?   </button>
 

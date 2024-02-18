@@ -189,7 +189,7 @@ export default function SkillAssessmentForm({ handleNextStep, handlePreviousStep
                     </button>
                     <button
                         type="button"
-                        className="flex-1 cursor-pointer rounded-xl bg-amber-400 py-2 text-center text-white"
+                        className="flex-1 cursor-pointer rounded-xl bg-amber-500 py-2 text-center text-white"
                         onClick={handleNext}
                     >
                         Save and Continue

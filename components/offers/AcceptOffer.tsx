@@ -133,7 +133,7 @@ export default function AcceptOffer({ offer, assignmentData, student }) {
     <div className="relative w-full">
       <button
         onClick={openForm}
-        className="w-full  rounded-full bg-amber-400 p-2 font-semibold text-white"
+        className="w-full  rounded-full bg-amber-500 p-2 font-semibold text-white"
       >
         Accept
       </button>

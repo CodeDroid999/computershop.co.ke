@@ -20,7 +20,7 @@ export default function BeYourOwnBoss() {
     },
   ]
   return (
-    <div className="bg-amber-400 pt-5 pb-5">
+    <div className="bg-amber-500 pt-5 pb-5">
       <div className="container flex flex-1 flex-col items-center justify-center pb-4">
 
         <h1 className="font-bold text-center text-gray-100 text-6xl whitespace-nowrap pb-3">

@@ -55,7 +55,7 @@ const Alert = ({ preview }: Props) => {
                     </motion.span>
 
                     <motion.div
-                        className="flex flex-col bg-amber-400 px-1 py-1 shadow rounded"
+                        className="flex flex-col bg-amber-500 px-1 py-1 shadow rounded"
                         initial={{ opacity: 0 }} // Initial animation properties
                         animate={{ opacity: 1 }} // Animation properties when component is mounted
                         transition={{ duration: 0.5, delay: 0.2 }} // Animation transition duration with delay

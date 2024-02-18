@@ -61,7 +61,7 @@ export default function ReleasePayment({
     <div>
       <button
         onClick={() => setIsFormOpen(true)}
-        className="mt-2 w-full rounded-full bg-amber-400 py-2 font-semibold text-white"
+        className="mt-2 w-full rounded-full bg-amber-500 py-2 font-semibold text-white"
       >
         Release Payment
       </button>

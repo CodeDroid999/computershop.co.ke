@@ -15,7 +15,7 @@ const PopularCountries = () => {
     ];
 
     return (
-        <div className="bg-amber-400  px-4 py-16 ">
+        <div className="bg-amber-500  px-4 py-16 ">
             <div className="container">
                 <div className="flex flex-1 flex-col items-center justify-center">
                     <h1 className="text-center  md:text-2xl font-bold text-gray-100 pt-2 pb-4  ">
