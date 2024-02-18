@@ -25,7 +25,7 @@ const CustomNavbar = () => {
             <h1 className="text-4xl font-bold">
               <Link href="/" className="text-gray-700">
                 <div className="mb-1">
-                  <span className="text-2xl text-gray-100 px-1 font-extrabold w-full border-2 rounded border-gray-100 hidden md:inline"> NorthExpress </span>
+                  <span className="text-2xl text-gray-100 px-1 font-extrabold w-full border-2 rounded border-gray-100 hidden md:inline"> Computershop </span>
                   <span className="text-2xl text-blue-700 px-1 font-extrabold w-full border-2 rounded border-blue-700 inline md:hidden"> NE </span>
                 </div>
               </Link>

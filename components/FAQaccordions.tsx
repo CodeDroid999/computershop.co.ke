@@ -38,22 +38,22 @@ const FAQItem: React.FC<{ question: string; answer: string }> = ({
 const FAQAccordion: React.FC = () => {
   const faqData = [
     {
-      question: 'What is NorthExpress?',
+      question: 'What is Computershop?',
       answer:
-        'NorthExpress is your go-to platform for getting things done quickly, precisely, and efficiently as well as getting your next job.Get your work done as a Client, Get your next side-hustle as a Tutor '
+        'Computershop is your go-to platform for getting things done quickly, precisely, and efficiently as well as getting your next job.Get your work done as a Client, Get your next side-hustle as a Tutor '
     }, {
-      question: 'What services are available on NorthExpress?',
+      question: 'What services are available on Computershop?',
       answer:
         'We offer a wide range of services, from posting bookings to finding the ideal candidate for your specific needs. From Technical writing which involves taking highly technical information like user manuals and research and turning it into content that the average person can understand. We have also a bunch of interesting bookings as well, for example, Web content and blog writing, Copywriting, Newswriting, Business writing, Ghostwritering, Instructional writing, and Resume writing. The customer will let you know if the booking needs to be completed in person or remote and provide dates that bookings need to be completed by.',
     }, {
       question: 'What bookings are available for me to do?',
       answer:
-        'There’s a wide range of bookings on NorthExpress. From Technical writing which involves taking highly technical information like user manuals and research and turning it into content that the average person can understand. We have also a bunch of interesting bookings as well, for example, Web content and blog writing, Copywriting, Newswriting, Business writing, Ghostwritering, Instructional writing, and Resume writing. The customer will let you know if the booking needs to be completed in person or remote and provide dates that bookings need to be completed by.',
+        'There’s a wide range of bookings on Computershop. From Technical writing which involves taking highly technical information like user manuals and research and turning it into content that the average person can understand. We have also a bunch of interesting bookings as well, for example, Web content and blog writing, Copywriting, Newswriting, Business writing, Ghostwritering, Instructional writing, and Resume writing. The customer will let you know if the booking needs to be completed in person or remote and provide dates that bookings need to be completed by.',
     },
     {
       question: 'How do i get paid?',
       answer:
-        ' You may commence the booking assured that NorthExpress has guaranteed the payment from the Student. Once you finish the job and claim payment, the Student will receive a notification to release the funds to your designated bank account. NorthExpress will deduct a service fee, encompassing transactional, insurance, and maintenance costs, upon the release of payment to upgrade and advance the NorthExpress platform, hence, increasing the potential for you to generate more earnings',
+        ' You may commence the booking assured that Computershop has guaranteed the payment from the Student. Once you finish the job and claim payment, the Student will receive a notification to release the funds to your designated bank account. Computershop will deduct a service fee, encompassing transactional, insurance, and maintenance costs, upon the release of payment to upgrade and advance the Computershop platform, hence, increasing the potential for you to generate more earnings',
     },
     {
       question: 'Is there insurance?',

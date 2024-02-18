@@ -48,7 +48,7 @@ const Dashboard: React.FC = (props: any) => {
     <>
       <Head>
         <title>
-          NorthExpress | Travel with comfort.
+          Computershop | Travel with comfort.
           Comfortable. Efficient. Affordable .
           At North Express, we are redefining the luxury transport, and setting new standards of excellence and reliability.
 
@@ -66,16 +66,16 @@ const Dashboard: React.FC = (props: any) => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta
           name="description"
-          content="NorthExpress is your one-stop destination for finding the right bookings and talented taskers. Post any booking, pick the best person, and get it done. Join now to earn money as a tutor or post your bookings for free."
+          content="Computershop is your one-stop destination for finding the right bookings and talented taskers. Post any booking, pick the best person, and get it done. Join now to earn money as a tutor or post your bookings for free."
         />
-        <meta name="keywords" content="NorthExpress, bookings, tutor, earn money, post booking" />
-        <meta name="author" content="NorthExpress" />
+        <meta name="keywords" content="Computershop, bookings, tutor, earn money, post booking" />
+        <meta name="author" content="Computershop" />
         <meta name="robots" content="index, follow" />
-        <meta name="og:title" property="og:title" content="NorthExpress | Get More Done" />
+        <meta name="og:title" property="og:title" content="Computershop | Get More Done" />
         <meta
           name="og:description"
           property="og:description"
-          content="NorthExpress is your one-stop destination for finding the right bookings and talented taskers. Post any booking, pick the best person, and get it done. Join now to earn money as a tutor or post your bookings for free."
+          content="Computershop is your one-stop destination for finding the right bookings and talented taskers. Post any booking, pick the best person, and get it done. Join now to earn money as a tutor or post your bookings for free."
         />
         <meta name="og:image" property="og:image" content="public/sync-my-socials-logo.png" />
 

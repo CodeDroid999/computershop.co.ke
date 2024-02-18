@@ -10,7 +10,7 @@ export default function Layout({ children }) {
     <div>
       <Head>
         <title>
-          NorthExpress | Travel with comfort.
+          Computershop | Travel with comfort.
           Comfortable. Efficient. Affordable .
           At North Express, we are redefining the luxury transport, and setting new standards of excellence and reliability.
 
@@ -42,7 +42,7 @@ export default function Layout({ children }) {
         />
         <meta
           name="description"
-          content="Post your booking for free | Earn money as a tutor| Discover how NorthExpress works | Trusted ratings and reviews| Insurance for peace of mind | Join NorthExpress today!"
+          content="Post your booking for free | Earn money as a tutor| Discover how Computershop works | Trusted ratings and reviews| Insurance for peace of mind | Join Computershop today!"
         />
 
       </Head>

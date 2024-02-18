@@ -12,7 +12,7 @@ export default function AuthLayout({
       <Toaster position="bottom-center" />
       <header className="flex flex-row items-center justify-between  bg-gray-200 py-2 duration-300 ease-in">
         <h1 className="text-3xl font-bold md:text-2xl ">
-          <Link href="/">NorthExpress</Link>
+          <Link href="/">Computershop</Link>
         </h1>
       </header>
       <main className="mx-auto mt-8 pb-12 w-full max-w-[400px]  md:mt-16">

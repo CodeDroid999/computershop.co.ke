@@ -25,7 +25,7 @@ export default function Footer() {
                 />
               </div>
               <p className="font-bold text-sm text-gray-400">
-                © 2022 NorthExpress. All rights reserved.
+                © 2022 Computershop. All rights reserved.
               </p>
             </div>
 

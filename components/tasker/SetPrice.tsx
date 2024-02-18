@@ -20,7 +20,7 @@ export default function SetPrice() {
             href="auth/sign-up"
             className="flex w-full justify-center text-lg font-semibold text-blue-800"
           >
-            Join NorthExpress
+            Join Computershop
           </Link>
         </div>
       </div>
