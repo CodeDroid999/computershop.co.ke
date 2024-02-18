@@ -11,7 +11,7 @@ const HomeArea: React.FC = () => {
             <div className="hero_bg_box">
                 <div className="img-box">
                     <Image
-                        src="https://i.postimg.cc/156hSWwZ/sewan.png"
+                        src="https://i.postimg.cc/50St5mJ3/computershop-logo.png"
                         width={1440}
                         height={600}
                         alt=""

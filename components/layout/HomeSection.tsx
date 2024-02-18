@@ -10,19 +10,19 @@ import CustomNavbar from './Navbar';
 const HeroArea: React.FC = () => {
     return (
         <header id="home" className="header_section pb-4">
-            <div className="flex bg-white mx-auto justify center align-center">
+            <div className="flex bg-gray-100 mx-auto justify center align-center">
                 <CustomNavbar />
             </div>
             <div className="overText mx-auto max-w-c-1390 my-12 z-3">
                 <div className="container flex lg:items-center lg:gap-8 xl:gap-32.5 pl-10">
                     <div className=" md:w-2/3">
-                        <h4 className="mb-4.5 text-lg font-medium text-white">
+                        <h4 className="mb-4.5 text-lg font-medium text-gray-800">
                             🔥 North Express - Travel with comfort.
                         </h4>
-                        <h1 className="mb-1 pr-16 text-3xl font-bold text-white xl:text-hero ">
+                        <h1 className="mb-1 pr-16 text-3xl font-bold text-gray-800 xl:text-hero ">
                             Comfortable. Efficient. Affordable .
                         </h1>
-                        <p className="text-white">
+                        <p className="text-gray-800">
                             Welcome to North Express, the brainchild of a group
                             of veteran logisticians redefining luxury transport on the
                             "Kenyan Landscape"; with unmatched customer experience and top-tier services.
