@@ -7,6 +7,7 @@ import MobileNavbar from './MobileNav';
 import Avatar from './Avatar';
 import { UserAuth } from 'context/AuthContext';
 import AuthedAvatar from 'components/AuthedLayout/AuthedAvatar';
+import Cart from './ShoppingCart';
 
 
 const CustomNavbar = () => {
@@ -15,6 +16,22 @@ const CustomNavbar = () => {
 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
+  };
+
+
+  const [cartItems, setCartItems] = useState([]);
+
+  const handleAddToCart = () => {
+    // Assuming the item to be added is represented as an object
+    const newItem = {
+      id: 1, // Example item ID
+      name: 'Item Name', // Example item name
+      price: 10, // Example item price
+      quantity: 1, // Example item quantity
+    };
+
+    // Update the cartItems state by adding the new item
+    setCartItems(prevCartItems => [...prevCartItems, newItem]);
   };
   return (
     <div className="m-auto flex w-11/12 items-center justify-between p-2 lg:p-3 ">
@@ -58,10 +75,16 @@ const CustomNavbar = () => {
           </Link>
 
           {!user ? (
-
-            <Avatar />
+            <div className="flex space-x-2">
+              <Avatar />
+              <Cart />
+            </div>
           ) : (
-            <AuthedAvatar />
+            <div className="flex space-x-2">
+
+              <AuthedAvatar />
+              <Cart />
+            </div>
           )}
         </div>
       </div>

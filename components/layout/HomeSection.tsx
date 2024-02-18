@@ -13,6 +13,7 @@ const HeroArea: React.FC = () => {
             <div className="flex bg-gray-100 mx-auto justify center align-center">
                 <CustomNavbar />
             </div>
+
             <div className="overText mx-auto max-w-c-1390 my-12 z-3">
                 <div className="container flex lg:items-center lg:gap-8 xl:gap-32.5 pl-10">
                     <div className=" md:w-2/3">
