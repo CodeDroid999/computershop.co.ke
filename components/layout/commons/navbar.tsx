@@ -8,7 +8,7 @@ const Navbar = async () => {
   const { userId } = UserAuth();
 
   if (!userId) {
-    router.push('/sign-in');
+    router.push('/auth/sign-in');
   }
 
 

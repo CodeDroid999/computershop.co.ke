@@ -21,7 +21,7 @@ import {
 import Head from 'next/head'
 import AuthLayout from 'components/layout/AuthLayout'
 
-export default function LogIn() {
+export default function SignIn() {
   const [passwordVisible, setPasswordVisible] = useState(false)
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
