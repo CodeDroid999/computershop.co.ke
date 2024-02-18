@@ -3,7 +3,6 @@
 import Link from "next/link"
 import { useParams, usePathname } from "next/navigation";
 
-import { cn } from "@/lib/utils"
 
 export function MainNav({
   className,
@@ -55,6 +54,10 @@ export function MainNav({
     },
   ]
 
+  function cn(arg0: string, className: string): string {
+    throw new Error("Function not implemented.");
+  }
+
   return (
     <nav
       className={cn("flex items-center space-x-4 lg:space-x-6", className)}
@@ -70,7 +73,7 @@ export function MainNav({
           )}
         >
           {route.label}
-      </Link>
+        </Link>
       ))}
     </nav>
   )

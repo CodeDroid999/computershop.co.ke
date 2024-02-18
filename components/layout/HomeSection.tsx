@@ -1,16 +1,14 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import Alert from './Alert';
-import CustomNavbar from './Navbar';
-import Image from 'next/image';
-import PostYourBooking from 'components/Homepage/MakeYourBooking';
 import Carousel from './Carousel';
+import Navbar from './commons/navbar';
 
 
 const images = [
-    { url: '/public/bg/heroBackground.jpeg', alt: 'Image 1' },
-    { url: '/public/bg/Teal_bg.png', alt: 'Image 2' },
-    { url: '/public/bg/Become-a-Tutor-cover.jpg', alt: 'Image 3' },
+    { url: 'https://i.postimg.cc/vmmJcHKm/laptop.jpg', alt: 'Image 1' },
+    { url: 'https://i.postimg.cc/vmmJcHKm/laptop.jpg', alt: 'Image 2' },
+    { url: 'https://i.postimg.cc/vmmJcHKm/laptop.jpg', alt: 'Image 3' },
     // Add more images as needed
 ];
 
@@ -26,7 +24,7 @@ const HeroArea: React.FC = () => {
             <div className="">
                 <Alert />
             </div>
-            <CustomNavbar />
+            <Navbar />
             <div className="overText mx-auto max-w-c-1390 my-12 z-3">
                 <div className="container flex lg:items-center lg:gap-8 xl:gap-32.5 pl-10">
                     <div className=" md:w-2/3">
@@ -45,7 +43,6 @@ const HeroArea: React.FC = () => {
                     </div>
                 </div>
             </div>
-            <PostYourBooking />
         </header>
     );
 };
