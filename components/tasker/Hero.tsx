@@ -43,7 +43,7 @@ export default function Hero() {
         </ul>
         <div className="my-8 w-full max-w-sm rounded-full bg-green-950 px-4 py-2 sm:max-w-[250px] sm:py-3 ">
           <Link
-            href="/signup"
+            href="auth/sign-up"
             className="flex w-full justify-center text-lg font-semibold text-white"
           >
             Join NorthExpress

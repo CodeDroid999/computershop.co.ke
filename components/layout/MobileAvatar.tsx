@@ -5,7 +5,7 @@ import profile from "public/profile.jpeg";
 
 const MobileAvatar = () => {
     const handleAccountClick = () => {
-        router.push('/login');
+        router.push('auth/sign-in');
     };
 
     return (

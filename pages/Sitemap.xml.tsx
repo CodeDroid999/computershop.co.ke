@@ -137,7 +137,7 @@ export async function getServerSideProps({ res }) {
       priority: 0.5,
     },
     {
-      url: '/signup',
+      url: 'auth/sign-up',
       priority: 0.5,
     },
     {

@@ -171,7 +171,7 @@ function Navbar() {
             {!user ? (
               <div className="flex flex-row items-center space-x-5 mr-4 bg-gray-100 py-2 rounded">
                 <Link
-                  href="/login"
+                  href="auth/sign-in"
                   className="text-gray-700 hover:text-blue-600"
                 >
                   Log In
@@ -262,7 +262,7 @@ function Navbar() {
           {!user ? (
             <div className="flex flex-row items-center space-x-5 mr-4 bg-gray-100 py-2 rounded">
               <Link
-                href="/login"
+                href="auth/sign-in"
                 className="text-gray-700 hover:text-blue-600"
               >
                 Log In

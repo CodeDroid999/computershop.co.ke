@@ -35,7 +35,7 @@ export default async function handler(
             <h2>For AssignmentPosters:</h2>
             <ul>
               <li><Link href="https://www.northexpresskenya.com/post-booking">Post your bookings for free</a> and connect with skilled taskers.</li>
-              <li>Ready to get started? <Link href="https://www.northexpresskenya.com/signup">Create your account</a>, <Link href="https://www.northexpresskenya.com/browse-bookings">browse bookings</a>, and unlock a world of opportunities on NorthExpress.</li>
+              <li>Ready to get started? <Link href="https://www.northexpresskenya.comauth/sign-up">Create your account</a>, <Link href="https://www.northexpresskenya.com/browse-bookings">browse bookings</a>, and unlock a world of opportunities on NorthExpress.</li>
               <li>Find the perfect candidates to get your work done efficiently.</li>
               <li>Enjoy the flexibility to <Link href="https://www.northexpresskenya.com/how-it-works">manage projects your way</a>.</li>
               <li>Pay as you use with no subscription or credit fees.</li>
@@ -65,7 +65,7 @@ export default async function handler(
               <li>Be sure to check out our <Link href="https://www.northexpresskenya.com/faq">frequently asked questions</a> for more information.</li>
             </ul>
             
-            <p className="pt-1 pb-2 text-lg">Ready to get started? <Link href="https://www.northexpresskenya.com/signup">Create your account</a>, <Link href="https://www.northexpresskenya.com/browse-bookings">browse bookings</a>, and unlock a world of opportunities on NorthExpress.</p>
+            <p className="pt-1 pb-2 text-lg">Ready to get started? <Link href="https://www.northexpresskenya.comauth/sign-up">Create your account</a>, <Link href="https://www.northexpresskenya.com/browse-bookings">browse bookings</a>, and unlock a world of opportunities on NorthExpress.</p>
             <p className="pt-1 pb-2 text-lg">Thank you again for choosing NorthExpress. We look forward to helping you achieve your goals and find the best solutions for your bookings.</p>
             
             <p className="pt-1 pb-2 text-lg">Best regards,<br>The NorthExpress Team</p>

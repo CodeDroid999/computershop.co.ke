@@ -26,7 +26,7 @@ export default function GetPaid() {
 
         <div className="my-3 w-full max-w-sm rounded-full bg-blue-100 px-4 py-3 sm:max-w-[250px] ">
           <Link
-            href="/signup"
+            href="auth/sign-up"
             className="flex w-full justify-center text-lg font-semibold text-blue-800"
           >
             Join NorthExpress

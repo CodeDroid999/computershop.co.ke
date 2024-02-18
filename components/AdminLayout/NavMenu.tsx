@@ -16,12 +16,12 @@ const NavigationMenu: React.FC = () => {
           </Link>
         </li>
         <li className="nav-item shadow bg-gray-300 ">
-          <Link href="/login" passHref>
+          <Link href="auth/sign-in" passHref>
             <span className="nav-link pl-3">Sign in</span>
           </Link>
         </li>
         <li className="nav-item shadow bg-gray-300 ">
-          <Link href="/signup" passHref>
+          <Link href="auth/sign-up" passHref>
             <span className="nav-link pl-3">Sign up +</span>
           </Link>
         </li>

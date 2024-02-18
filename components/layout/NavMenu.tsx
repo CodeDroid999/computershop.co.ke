@@ -15,11 +15,11 @@ const NavigationMenu: React.FC = () => {
 
         <li className="nav-item shadow bg-gray-300 ">
           {!user ? (
-            <Link href="/signup" passHref>
+            <Link href="auth/sign-up" passHref>
               <span className="nav-link  pl-3 pt-2 pr-2 pb-2 mb-2">Sign Up</span>
             </Link>
           ) : (
-            <Link href="/login" passHref>
+            <Link href="auth/sign-in" passHref>
               <span className="nav-link  pl-3 pt-2 pr-2 pb-2 mb-2">Sign In</span>
             </Link>
           )}
@@ -37,11 +37,11 @@ const NavigationMenu: React.FC = () => {
 
         <li className="nav-item shadow bg-gray-300 ">
           {!user ? (
-            <Link href="/signup" passHref>
+            <Link href="auth/sign-up" passHref>
               <span className="nav-link  pl-3 pt-2 pr-2 pb-2 mb-2">About Us</span>
             </Link>
           ) : (
-            <Link href="/login" passHref>
+            <Link href="auth/sign-in" passHref>
               <span className="nav-link  pl-3 pt-2 pr-2 pb-2 mb-2">Sign In</span>
             </Link>
           )}
