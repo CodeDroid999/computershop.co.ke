@@ -5,6 +5,7 @@ import NavigationMenu from './NavMenu';
 import MobileAvatar from './MobileAvatar';
 import MobileAuthedAvatar from 'components/AuthedLayout/MobileAvatar';
 import { UserAuth } from 'context/AuthContext';
+import Cart from './ShoppingCart';
 
 
 const MobileNavbar = () => {
@@ -61,13 +62,15 @@ const MobileNavbar = () => {
           </div>
 
           {!user ? (
-            <>
+            <div className="flex">
               <MobileAvatar />
-            </>
+              <Cart />
+            </div>
           ) : (
-            <>
+            <div className="flex space-x-1">
               <MobileAuthedAvatar />
-            </>
+              <Cart />
+            </div>
           )}
         </div>
       </div>
