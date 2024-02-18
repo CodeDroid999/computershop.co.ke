@@ -4,18 +4,23 @@ import Alert from './Alert';
 import CustomNavbar from './Navbar';
 import Image from 'next/image';
 import PostYourBooking from 'components/Homepage/MakeYourBooking';
+import Carousel from './Carousel';
+
+
+const images = [
+    { url: '/public/bg/heroBackground.jpeg', alt: 'Image 1' },
+    { url: '/public/bg/Teal_bg.png', alt: 'Image 2' },
+    { url: '/public/bg/Become-a-Tutor-cover.jpg', alt: 'Image 3' },
+    // Add more images as needed
+];
+
 
 const HeroArea: React.FC = () => {
     return (
         <header id="home" className="header_section pb-4">
             <div className="hero_bg_box">
                 <div className="img-box">
-                    <Image
-                        src="https://i.postimg.cc/156hSWwZ/sewan.png"
-                        width={1440}
-                        height={600}
-                        alt=""
-                    />
+                    <Carousel images={images} />
                 </div>
             </div>
             <div className="">

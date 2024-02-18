@@ -39,6 +39,7 @@
     "firebase": "^10.1.0",
     "firebase-admin": "^11.10.1",
     "firebase-functions": "^4.4.1",
+    "framer-motion": "^11.0.5",
     "intl-segmenter-polyfill": "0.4.4",
     "js-cookie": "^3.0.5",
     "mapbox-gl": "^2.15.0",
