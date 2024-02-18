@@ -20,14 +20,15 @@ const Cart = () => {
     };
 
     return (
-        <div className="">
+        <div>
             {/* Cart icon */}
             <Image
                 src={cartIcon}
                 alt="Background"
                 width="40"
-                height="50"
+                height="40"
             />
+            {/* Red dot */}
 
         </div>
     );

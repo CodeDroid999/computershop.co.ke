@@ -54,25 +54,7 @@ const CustomNavbar = () => {
 
         {/* Right-side links */}
         <div className="flex items-center space-x-3">
-          <Link
-            href="/"
-            className="md:text-lg font-medium text-xs text-gray-800 hover:text-blue-600"
-          >
-            Home
-          </Link>
 
-          <Link
-            href="/bus-hire"
-            className="md:text-lg font-medium text-xs text-gray-800 hover:text-blue-600 whitespace-nowrap"
-          >
-            Bus Hire
-          </Link>
-          <Link
-            href="/parcels"
-            className="md:text-lg font-medium text-xs text-gray-800 hover:text-blue-600"
-          >
-            Parcels
-          </Link>
 
           {!user ? (
             <div className="flex space-x-2">
@@ -81,7 +63,6 @@ const CustomNavbar = () => {
             </div>
           ) : (
             <div className="flex space-x-2">
-
               <AuthedAvatar />
               <Cart />
             </div>

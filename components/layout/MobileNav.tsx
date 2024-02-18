@@ -5,7 +5,7 @@ import NavigationMenu from './NavMenu';
 import MobileAvatar from './MobileAvatar';
 import MobileAuthedAvatar from 'components/AuthedLayout/MobileAvatar';
 import { UserAuth } from 'context/AuthContext';
-import Cart from './ShoppingCart';
+import Cart from './ShoppingCartMobile';
 
 
 const MobileNavbar = () => {
@@ -39,27 +39,7 @@ const MobileNavbar = () => {
 
         {/* Right div (Sticky bar) */}
         <div className="flex items-center justify-end mr-3">
-          <div className="flex space-x-2 pr-2">
-            <Link
-              href="/"
-              className="md:text-lg font-medium text-xs text-gray-800 hover:text-blue-600"
-            >
-              Home
-            </Link>
 
-            <Link
-              href="/bus-hire"
-              className="md:text-lg font-medium text-xs text-gray-800 hover:text-blue-600 whitespace-nowrap"
-            >
-              Bus Hire
-            </Link>
-            <Link
-              href="/parcels"
-              className="md:text-lg font-medium text-xs text-gray-800 hover:text-blue-600"
-            >
-              Parcels
-            </Link>
-          </div>
 
           {!user ? (
             <div className="flex">
