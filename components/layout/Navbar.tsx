@@ -9,7 +9,6 @@ import { UserAuth } from 'context/AuthContext';
 import AuthedAvatar from 'components/AuthedLayout/AuthedAvatar';
 import Cart from './ShoppingCart';
 import SearchBar from './commons/SearchBar';
-./commons/SearchBar
 
 const CustomNavbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
