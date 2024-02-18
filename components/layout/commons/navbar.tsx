@@ -1,15 +1,14 @@
-import { redirect } from "next/navigation";
-
 import Image from "next/image";
 import { UserAuth } from "context/AuthContext";
 import { ThemeToggle } from "./theme-toggle";
 import { MainNav } from "./main-nav";
+import router from "next/router";
 
 const Navbar = async () => {
   const { userId } = UserAuth();
 
   if (!userId) {
-    redirect('/sign-in');
+    router.push('/sign-in');
   }
 
 

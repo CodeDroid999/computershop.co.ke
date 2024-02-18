@@ -3,7 +3,7 @@ import { GoogleAuthProvider, createUserWithEmailAndPassword, onAuthStateChanged,
 import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
 import { FcGoogle } from 'react-icons/fc';
 import { BsEyeFill, BsEyeSlashFill } from 'react-icons/bs';
-import { auth, db } from '../firebase';
+import { auth, db } from '../../firebase';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import toast from 'react-hot-toast';
