@@ -102,7 +102,7 @@ export default function ForgotPassword() {
 
             <button
               onClick={handleResetPassword}
-              className="rounded-2xl bg-amber-500 px-4 py-2 text-white hover:bg-amber-500"
+              className="rounded-2xl bg-amber-500 px-4 py-2 text-blue-950 shadow hover:bg-amber-600 hover:pointer "
             >
               Continue
             </button>

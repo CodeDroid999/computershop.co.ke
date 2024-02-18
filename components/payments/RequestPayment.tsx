@@ -145,7 +145,7 @@ export default function RequestPayment({ assignmentData, student, assignmentId }
                 <div className="mt-8 flex w-full flex-col items-center">
                   <Link
                     href="/browse-bookings"
-                    className="rounded-full bg-blue-700 px-4 py-2 text-white"
+                    className="rounded-full bg-blue-700 px-4 py-2 text-blue-950"
                   >
                     Browse more bookings
                   </Link>
