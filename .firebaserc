@@ -1,7 +1,7 @@
 {
   "projects": {
     "default": "northexpresskenya",
-    "staging": "qualityunitedwriters",
+    "staging": "computershop-254",
     "production": "northexpresskenya"
   },
   "targets": {},
