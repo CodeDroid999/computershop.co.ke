@@ -1,6 +1,6 @@
 {
   "projects": {
-    "default": "northexpresskenya",
+    "default": "computershop-254",
     "staging": "computershop-254",
     "production": "northexpresskenya"
   },
