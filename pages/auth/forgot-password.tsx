@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import toast from 'react-hot-toast'
-import { firebaseConfig } from '../firebase' // Import your Firebase configuration
+import { firebaseConfig } from '../../firebase' // Import your Firebase configuration
 import Head from 'next/head'
 import AuthLayout from 'components/layout/AuthLayout'
 

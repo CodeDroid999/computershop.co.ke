@@ -254,7 +254,7 @@ North Express is the brainchild of a group of veteran logisticians redefining lu
 
         {/* Forgot password button */}
         <button className="rounded-2xl bg-green-900 px-4 py-2 text-white hover:bg-green-900">
-          <Link href="/forgot-password">Forgot password?</Link>
+          <Link href="/auth/forgot-password">Forgot password?</Link>
         </button>
       </form>
     </AuthLayout>
