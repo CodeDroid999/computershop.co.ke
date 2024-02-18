@@ -15,7 +15,7 @@ const HeroArea: React.FC = () => {
             <div className="hero_bg_box">
                 <div className="img-box">
                     <Image
-                        src="https://i.postimg.cc/50St5mJ3/computershop-logo.png"
+                        src="https://i.postimg.cc/vmmJcHKm/laptop.jpg"
                         width={1440}
                         height={600}
                         alt=""
@@ -33,7 +33,7 @@ const HeroArea: React.FC = () => {
                 <div className="container flex lg:items-center lg:gap-8 xl:gap-32.5 pl-10">
                     <div className=" md:w-2/3">
                         <h4 className="mb-4.5 text-lg font-medium text-gray-800">
-                            🔥 North Express - Travel with comfort.
+                            🔥 Computershop - Shop with comfort.
                         </h4>
                         <h1 className="mb-1 pr-16 text-3xl font-bold text-gray-800 xl:text-hero ">
                             Comfortable. Efficient. Affordable .
