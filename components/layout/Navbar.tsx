@@ -51,9 +51,7 @@ const CustomNavbar = () => {
 
 
         </div>
-        <div className="flex items-center space-x-1">
-          <SearchBar />
-        </div>
+
 
 
         {/* Right-side links */}

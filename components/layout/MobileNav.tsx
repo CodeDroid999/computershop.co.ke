@@ -6,6 +6,8 @@ import MobileAvatar from './MobileAvatar';
 import MobileAuthedAvatar from 'components/AuthedLayout/MobileAvatar';
 import { UserAuth } from 'context/AuthContext';
 import Cart from './ShoppingCartMobile';
+import SearchBar from './commons/MobileSearchBar';
+
 
 
 const MobileNavbar = () => {
@@ -39,8 +41,6 @@ const MobileNavbar = () => {
 
         {/* Right div (Sticky bar) */}
         <div className="flex items-center justify-end mr-3">
-
-
           {!user ? (
             <div className="flex">
               <MobileAvatar />

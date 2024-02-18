@@ -17,26 +17,20 @@ const SearchBar = () => {
 
     return (
         <div className="relative flex items-center w-full border-1 border-gray-500 rounded">
-            <button
-                type="button"
-                onClick={handleSearch}
-                className="h-full px-2 py-2 bg-white text-gray-500 rounded-l focus:outline-none "
-            >
-                <FontAwesomeIcon icon={faSearch} />
-            </button>
+
             <input
                 type="text"
                 value={searchValue}
                 onChange={handleInputChange}
-                placeholder="Search products, brands and categories"
-                className="w-full px-1 py-2 rounded-l focus:outline-none"
+                placeholder="Search products and categories"
+                className="w-full px-1  rounded-l focus:outline-none"
             />
             <button
                 type="button"
                 onClick={handleSearch}
                 className="h-full uppercase px-4 py-2  bg-indigo-400 shadow hover:bg-indigo-500 text-white rounded-r focus:outline-none"
             >
-                Search
+                <FontAwesomeIcon icon={faSearch} className="text-md" />
             </button>
         </div>
     );

@@ -2,6 +2,8 @@
 import React from 'react';
 import Alert from './Alert';
 import CustomNavbar from './Navbar';
+import SearchBar from './commons/MobileSearchBar';
+import Image from 'next/image';
 
 
 
@@ -10,8 +12,21 @@ import CustomNavbar from './Navbar';
 const HeroArea: React.FC = () => {
     return (
         <header id="home" className="header_section pb-4">
+            <div className="hero_bg_box">
+                <div className="img-box">
+                    <Image
+                        src="https://i.postimg.cc/50St5mJ3/computershop-logo.png"
+                        width={1440}
+                        height={600}
+                        alt=""
+                    />
+                </div>
+            </div>
             <div className="flex bg-gray-100 mx-auto justify center align-center">
                 <CustomNavbar />
+            </div>
+            <div className="md:hidden flex mx-3 items-center bg-red-700 min-w-100 ">
+                <SearchBar />
             </div>
 
             <div className="overText mx-auto max-w-c-1390 my-12 z-3">
