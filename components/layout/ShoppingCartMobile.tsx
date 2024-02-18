@@ -20,13 +20,13 @@ const Cart = () => {
     };
 
     return (
-        <div>
+        <div className="flex justify-items-center mx-auto">
             {/* Cart icon */}
-            <Image
+            < Image
                 src={cartIcon}
                 alt="Background"
-                width="40"
-                height="40"
+                width="25"
+                height="25"
             />
             {/* Red dot */}
 

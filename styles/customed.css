@@ -51,7 +51,7 @@ body {
   content: "";
   width: 40px;
   height: 7px;
-  background-color: #fbbf24;
+  background-color: #818cf8;
   border-radius: 10px;
   position: absolute;
   bottom: 0;
@@ -196,7 +196,7 @@ body {
 
 .header_top .contact_link-container a i {
   font-size: 20px;
-  color: #fbbf24;
+  color: #818cf8;
   margin-right: 5px;
 }
 
@@ -365,7 +365,7 @@ a:focus {
 }
 
 .slider_section .detail-box h1 span {
-  color: #fbbf24;
+  color: #818cf8;
 }
 
 .slider_section .detail-box p {
@@ -404,7 +404,7 @@ a:focus {
 .slider_section .detail-box .btn-box .btn-2 {
   display: inline-block;
   padding: 10px 35px;
-  background-color: #fbbf24;
+  background-color: #818cf8;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -413,8 +413,8 @@ a:focus {
 
 .slider_section .detail-box .btn-box .btn-2:hover {
   background-color: transparent;
-  border-color: #fbbf24;
-  color: #fbbf24;
+  border-color: #818cf8;
+  color: #818cf8;
 }
 
 .slider_section .img-box {
@@ -444,7 +444,7 @@ a:focus {
   height: 20px;
   border-radius: 100%;
   text-align: center;
-  background-color: #fbbf24;
+  background-color: #818cf8;
   opacity: 1;
   border: none;
   margin: 0 4px;
@@ -480,7 +480,7 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 35px;
-  background-color: #fbbf24;
+  background-color: #818cf8;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -490,8 +490,8 @@ a:focus {
 
 .about_section .detail-box a:hover {
   background-color: transparent;
-  border-color: #fbbf24;
-  color: #fbbf24;
+  border-color: #818cf8;
+  color: #818cf8;
 }
 
 .service_section {
@@ -531,7 +531,7 @@ a:focus {
 .service_section .box .detail-box a {
   display: inline-block;
   padding: 8px 35px;
-  background-color: #fbbf24;
+  background-color: #818cf8;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -541,8 +541,8 @@ a:focus {
 
 .service_section .box .detail-box a:hover {
   background-color: transparent;
-  border-color: #fbbf24;
-  color: #fbbf24;
+  border-color: #818cf8;
+  color: #818cf8;
 }
 
 .client_section {
@@ -627,7 +627,7 @@ a:focus {
 
 .client_section .carousel-control-prev:hover,
 .client_section .carousel-control-next:hover {
-  background-color: #fbbf24;
+  background-color: #818cf8;
 }
 
 .client_section .carousel-control-prev {
@@ -705,7 +705,7 @@ a:focus {
 .contact_section .contact_form-container button {
   display: inline-block;
   padding: 10px 60px;
-  background-color: #fbbf24;
+  background-color: #818cf8;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -716,8 +716,8 @@ a:focus {
 
 .contact_section .contact_form-container button:hover {
   background-color: transparent;
-  border-color: #fbbf24;
-  color: #fbbf24;
+  border-color: #818cf8;
+  color: #818cf8;
 }
 
 .contact_bg_box {
@@ -804,7 +804,7 @@ a:focus {
 .team_section .btn-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #fbbf24;
+  background-color: #818cf8;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -813,8 +813,8 @@ a:focus {
 
 .team_section .btn-box a:hover {
   background-color: transparent;
-  border-color: #fbbf24;
-  color: #fbbf24;
+  border-color: #818cf8;
+  color: #818cf8;
 }
 
 .info_section {
@@ -900,7 +900,7 @@ a:focus {
   outline: none;
   border: none;
   color: #0d0d0d;
-  background: #fbbf24;
+  background: #818cf8;
   border-radius: 30px;
   margin-top: 15px;
   text-transform: uppercase;

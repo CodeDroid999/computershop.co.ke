@@ -63,7 +63,6 @@ export default function Home(props: PageProps) {
       <HeroArea />
       <Features />
       <TopDestinations />
-      <AppplyNowHero />
       <HighestEarners />
       <DiscoverDestinations />
 
