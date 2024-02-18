@@ -8,7 +8,8 @@ import Avatar from './Avatar';
 import { UserAuth } from 'context/AuthContext';
 import AuthedAvatar from 'components/AuthedLayout/AuthedAvatar';
 import Cart from './ShoppingCart';
-
+import SearchBar from './commons/SearchBar';
+./commons/SearchBar
 
 const CustomNavbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -51,6 +52,10 @@ const CustomNavbar = () => {
 
 
         </div>
+        <div className="flex items-center space-x-1">
+          <SearchBar />
+        </div>
+
 
         {/* Right-side links */}
         <div className="flex items-center space-x-3">
