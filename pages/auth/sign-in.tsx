@@ -179,7 +179,7 @@ North Express is the brainchild of a group of veteran logisticians redefining lu
       <div className="flex justify-center align-center pt-1 pb-2">
         <button
           type="button"
-          className="flex w-100 flex-row items-center justify-center rounded-2xl border border-gray-400 bg-gray-100 px-8 py-2 text-lg font-medium text-green-950 shadow hover:bg-amber-600 hover:pointer  hover:text-white"
+          className="flex w-100 flex-row items-center justify-center rounded-2xl border border-gray-400 bg-gray-100 px-8 py-2 text-lg font-medium text-green-950 shadow hover:bg-amber-600 hover:pointer hover:font-bold  hover:text-white"
           onClick={handleGoogleSignIn}
         >
           <FcGoogle className="mr-2" size={20} />
@@ -239,7 +239,7 @@ North Express is the brainchild of a group of veteran logisticians redefining lu
         {/* Continue button */}
         <button
           type="submit"
-          className="rounded-2xl bg-amber-500 px-4 py-2 text-blue-950 shadow hover:bg-amber-600 hover:pointer "
+          className="rounded-2xl bg-amber-500 px-4 py-2 text-blue-950 shadow hover:bg-amber-600 hover:pointer hover:font-bold "
         >
           Continue
         </button>
@@ -253,7 +253,7 @@ North Express is the brainchild of a group of veteran logisticians redefining lu
         </div>
 
         {/* Forgot password button */}
-        <button className="rounded-2xl bg-amber-500 px-4 py-2 text-blue-950 shadow hover:bg-amber-600 hover:pointer ">
+        <button className="rounded-2xl bg-amber-500 px-4 py-2 text-blue-950 shadow hover:bg-amber-600 hover:pointer hover:font-bold ">
           <Link href="/auth/forgot-password">Forgot password?</Link>
         </button>
       </form>
