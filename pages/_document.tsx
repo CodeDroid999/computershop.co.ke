@@ -5,7 +5,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <link rel="icon" href="favicon/northexpress-logo.ico" />
+        <link rel="icon" href="favicon/computershop-logo.png" />
       </Head>
 
       <body className="w-100">
@@ -13,21 +13,7 @@ export default function Document() {
         <NextScript />
 
         {/* Google tag (gtag.js) */}
-        <Script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-0GSHBZVLER"
-        />
-        <Script
-          id="google-analytics"
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-0GSHBZVLER');
-            `,
-          }}
-        />
+
       </body>
     </Html>
   );

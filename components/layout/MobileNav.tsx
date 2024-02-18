@@ -1,9 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
-
 import NavigationMenu from './NavMenu';
-import logo from 'public/sync-my-socials-logo.png'
 import MobileAvatar from './MobileAvatar';
 import MobileAuthedAvatar from 'components/AuthedLayout/MobileAvatar';
 import { UserAuth } from 'context/AuthContext';
@@ -27,7 +25,7 @@ const MobileNavbar = () => {
           <Link href="/" className="text-gray-700">
             <div className="mb-1">
               <Image
-                src={logo}
+                src="https://i.postimg.cc/50St5mJ3/computershop-logo.png"
                 alt="booking"
                 width={130}
                 height={60}
